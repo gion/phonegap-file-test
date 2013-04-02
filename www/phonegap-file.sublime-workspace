@@ -1,0 +1,1092 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"coord"
+			],
+			[
+				"tr",
+				"transparentPng"
+			],
+			[
+				"im",
+				"imgHost"
+			],
+			[
+				"zo",
+				"zoomFactor"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"obsta",
+				"obstacleSelector"
+			],
+			[
+				"obs",
+				"obstacles"
+			],
+			[
+				"main",
+				"mainContainer"
+			],
+			[
+				"boo",
+				"bookmarklet"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"sty",
+				"style	Tag"
+			],
+			[
+				"_thr",
+				"_throttledGenerateScore"
+			],
+			[
+				"ori",
+				"originalX"
+			],
+			[
+				"w",
+				"wrapper"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"ba",
+				"backFaceClassName"
+			],
+			[
+				"wra",
+				"wrapperClass"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"ub",
+				"unbindEventHandlers"
+			],
+			[
+				"res",
+				"resetStats"
+			],
+			[
+				"generate",
+				"generate"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"ge",
+				"generateScore"
+			],
+			[
+				"bon",
+				"bonusManager"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"img",
+				"imgWrapper"
+			],
+			[
+				"sc",
+				"scoreManager"
+			],
+			[
+				"can",
+				"canvas"
+			],
+			[
+				"sco",
+				"scoreCanvas"
+			],
+			[
+				"bo",
+				"bonusCanvas"
+			],
+			[
+				"font",
+				"fontSize"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"onR",
+				"onRemove"
+			],
+			[
+				"_on",
+				"_onGenerate"
+			],
+			[
+				"fl",
+				"flyingScore"
+			],
+			[
+				"opac",
+				"opacity"
+			],
+			[
+				"up",
+				"updatePos"
+			],
+			[
+				"fi",
+				"fillStyle"
+			],
+			[
+				"stats",
+				"statsContainer"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bonu",
+				"bonuses"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"remo",
+				"removeBonus"
+			],
+			[
+				"init",
+				"initBonusManager"
+			],
+			[
+				"shou",
+				"shouldClearCanvas"
+			],
+			[
+				"_ch",
+				"_changed"
+			],
+			[
+				"degree",
+				"degreePace"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"coll",
+				"collidesWithCone"
+			],
+			[
+				"cone",
+				"coneRadius"
+			],
+			[
+				"plane",
+				"planeRadius"
+			],
+			[
+				"fr",
+				"fromDownToUp"
+			],
+			[
+				"on",
+				"onChange"
+			],
+			[
+				"get",
+				"getBBox"
+			],
+			[
+				"req",
+				"requestAnimationFrame"
+			],
+			[
+				"ma",
+				"maxRotation"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"max",
+				"maxX"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"sta",
+				"statsContainer"
+			],
+			[
+				"pla",
+				"planeCanvas"
+			],
+			[
+				"for",
+				"foregroundCanvas"
+			],
+			[
+				"_class",
+				"_classNames"
+			],
+			[
+				"pre",
+				"preloadImage"
+			],
+			[
+				"appl",
+				"applyTransforms"
+			],
+			[
+				"app",
+				"apply"
+			],
+			[
+				"trna",
+				"transform"
+			],
+			[
+				"tran",
+				"transforms"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"rota",
+				"rotateX"
+			],
+			[
+				"pl",
+				"planes"
+			],
+			[
+				"st",
+				"stopped"
+			],
+			[
+				"rotatey",
+				"rotateY2"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"0x",
+				"0xff00dd"
+			],
+			[
+				"lin",
+				"lineStyle"
+			],
+			[
+				"ad",
+				"addChild"
+			],
+			[
+				"dra",
+				"drawBezier"
+			],
+			[
+				"dist",
+				"distBetween2Points"
+			],
+			[
+				"sa",
+				"stageWidth"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"ran",
+				"randomPoint"
+			],
+			[
+				"g",
+				"graphics"
+			],
+			[
+				"ini",
+				"initPoints"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"ca",
+				"canvas	Tag"
+			],
+			[
+				"sho",
+				"showSamples"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"tw",
+				"tweens"
+			],
+			[
+				"ex",
+				"existingTween"
+			],
+			[
+				"musc",
+				"musicEl"
+			],
+			[
+				"music",
+				"musicTween"
+			],
+			[
+				"total",
+				"totalDuration"
+			],
+			[
+				"tot",
+				"totalDuration"
+			],
+			[
+				"tim",
+				"timeline"
+			],
+			[
+				"crea",
+				"createAudioElement"
+			],
+			[
+				"video",
+				"videoObject"
+			],
+			[
+				"to",
+				"togglePlayState"
+			],
+			[
+				"is",
+				"isTablet"
+			],
+			[
+				"mus",
+				"musicTween"
+			],
+			[
+				"mu",
+				"musicEl"
+			],
+			[
+				"au",
+				"audio"
+			],
+			[
+				"exten",
+				"extension"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"h",
+				"http	$http"
+			],
+			[
+				"el",
+				"elements"
+			],
+			[
+				"time",
+				"timelineWidth"
+			],
+			[
+				"le",
+				"leftPercent"
+			],
+			[
+				"new",
+				"newVal"
+			],
+			[
+				"name",
+				"namePrefix"
+			],
+			[
+				"game",
+				"gamePace"
+			],
+			[
+				"Im",
+				"ImageItem"
+			],
+			[
+				"tra",
+				"tracks"
+			],
+			[
+				"audio",
+				"AudioItem"
+			],
+			[
+				"mouse",
+				"mousemove"
+			],
+			[
+				"vd",
+				"video"
+			],
+			[
+				"Vis",
+				"VisualTimeline"
+			],
+			[
+				"heig",
+				"screenHeight"
+			],
+			[
+				"scre",
+				"screenHeight"
+			],
+			[
+				"width",
+				"screenWidth"
+			],
+			[
+				"last",
+				"lastChild"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/index.js",
+			"settings":
+			{
+				"buffer_size": 1767,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"git commit ",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"git d",
+				"Git: Diff All"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/test/otm-build/build/js/all-min.js",
+		"/var/www/test/otm-build/build/js/cubes.js",
+		"/var/www/after-earth/app/temp/v2-take2.js",
+		"/var/www/after-earth/Gruntfile.js",
+		"/var/www/planes/3d/app.js",
+		"/var/www/planes/app/scripts/main.js",
+		"/var/www/planes/app/scripts/engine.js",
+		"/var/www/planes/app/scripts/dom.js",
+		"/var/www/planes/app/scripts/config.js",
+		"/var/www/planes/app/scripts/app.js",
+		"/var/www/test/3d/planes/bookmarklet.js.php",
+		"/var/www/planes/.tmp/index.html",
+		"/var/www/planes/app/index.html",
+		"/var/tmp/index.html",
+		"/var/www/test/3d/planes/app.css",
+		"/var/www/test/3d/planes/app2.js",
+		"/var/www/planes/dist/scripts/planes.js",
+		"/var/www/planes/app/styles/main.scss",
+		"/var/www/planes/app/styles/planes.scss",
+		"/var/www/planes/app/styles/app.scss",
+		"/media/windows/wamp/www/projects/beetleworx/js/game.js",
+		"/var/www/planes/app/styles/style.php",
+		"/var/www/planes/app/style.php",
+		"/var/www/planes/dist/style.php",
+		"/var/www/planes/dist/styles/main.css",
+		"/var/www/planes/dist/styles/planes.css",
+		"/var/www/planes/app/components/jquery/jquery.js",
+		"/var/www/planes/app/scripts/util.js",
+		"/var/www/planes/dist/index2.html",
+		"/var/www/planes/.tmp/styles/planes.css",
+		"/var/www/planes/Gruntfile.js",
+		"/var/www/planes/.tmp/styles/app.css",
+		"/var/www/test/3d/planes/index.html",
+		"/var/www/test/3d/planes/app.js",
+		"/media/windows/wamp/www/projects/beetleworx/js/app.js",
+		"/home/gion/.config/sublime-text-3/Packages/Web Inspector/Default (Linux).sublime-keymap",
+		"/home/gion/.config/sublime-text-3/Packages/Web Inspector/swi.sublime-settings",
+		"/home/gion/Downloads/favicon.ico",
+		"/var/www/planes/app/favicon.ico",
+		"/var/www/test/3d/planes/app2.css",
+		"/var/www/test/3d/planes/style.php",
+		"/var/www/test/3d/planes/bookmarklet.js",
+		"/home/gion/Downloads/CSS custom filters + 3D transforms.html",
+		"/var/www/test/3d/planes/bookmaklet-backup.js",
+		"/var/www/racemark/dist/.htaccess",
+		"/var/www/racemark/app/index.html",
+		"/var/www/racemark/app/scripts/main.js",
+		"/var/www/racemark/Gruntfile.js",
+		"/var/www/racemark/dist/scripts/main.js",
+		"/var/www/racemark/app/.htaccess",
+		"/var/www/racemark/dist/index.html",
+		"/var/www/racemark/app/scripts/raf.js",
+		"/media/windows/wamp/www/projects/xivic-portfolio/Development/sources/coin-string-demo/script/js/main.js",
+		"/var/www/racemark/app/styles/main.scss",
+		"/var/www/front-end-group/test/tests.js",
+		"/var/www/front-end-group/test/index.html",
+		"/var/www/test/reveal.js/index.html",
+		"/var/www/test/reveal.js/README.md",
+		"/var/www/test/reveal.js/plugin/highlight/highlight.js",
+		"/var/www/front-end-group/tests.js",
+		"/var/www/front-end-group/tests.html",
+		"/var/www/movie-maker/app/images/ignore/loading.gif",
+		"/home/gion/Downloads/loading.gif",
+		"/var/www/movie-maker/app/scripts/vendor/es5-shim.min.js",
+		"/var/www/movie-maker/app/data/demo.json",
+		"/var/www/movie-maker/app/styles/loading.scss",
+		"/var/www/movie-maker/app/scripts/services/timeline.js",
+		"/var/www/movie-maker/app/scripts/app.js",
+		"/var/www/hockey/app/scripts/services/config.js",
+		"/var/www/hockey/Gruntfile.js",
+		"/var/www/hockey/app/styles/main.scss",
+		"/var/www/test/movie-maker/Gruntfile.js",
+		"/var/www/hockey/app/index.html",
+		"/var/www/hockey/server/server.js",
+		"/var/www/hockey/app/scripts/app.js",
+		"/var/www/hockey/app/scripts/controllers/main.js",
+		"/var/www/hockey/app/scripts/controllers/game.js",
+		"/var/www/movie-maker/app/styles/animation_mixins.scss",
+		"/var/www/test/movie-maker/app/scripts/app.js",
+		"/var/www/hockey/app/views/game.html",
+		"/var/www/hockey/app/views/main.html",
+		"/var/www/hockey/app/scripts/services/socket.js",
+		"/var/www/hockey/app/scripts/services/animationFrame.js",
+		"/var/www/movie-maker/Gruntfile.js",
+		"/var/www/movie-maker/testacular.conf.js",
+		"/var/www/test/movie-maker/app/styles/main.scss",
+		"/var/www/test/movie-maker/app/components/angular-strap/dist/angular-strap.min.js",
+		"/var/www/test/movie-maker/app/data/demo.json",
+		"/var/www/test/movie-maker/app/scripts/directives/ui.js",
+		"/var/www/test/movie-maker/app/index.html",
+		"/var/www/test/movie-maker/app/views/main.html",
+		"/var/www/test/movie-maker/app/scripts/services/config.js",
+		"/var/www/test/movie-maker/app/scripts/services/util.js",
+		"/var/www/test/movie-maker/app/components/angular-ui/modules/directives/jq/jq.js",
+		"/var/www/test/movie-maker/app/scripts/controllers/main.js",
+		"/home/gion/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/gion/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
+		"/var/www/test/movie-maker/app/scripts/modules/Scope.SafeApply.js",
+		"/var/www/test/movie-maker/app/components/greensock/examples/super_basic_syntax.html",
+		"/var/www/test/movie-maker/app/components/greensock/src/uncompressed/TweenMax.js",
+		"/var/www/admfv/js/app.controller.js",
+		"/var/www/admfv/js/app.router.js",
+		"/var/www/admfv/js/app.Company.js",
+		"/var/www/admfv/js/app.mvcDefinitions.js",
+		"/var/www/admfv/js/app.testModel.js",
+		"/var/www/admfv/js/app.js",
+		"/var/www/admfv/templates/footer.php",
+		"/var/www/admfv/templates/header.php",
+		"/var/www/admfv/js/app.Contract.js",
+		"/var/www/admfv/data/companies.json",
+		"/var/www/admfv/data/local.json",
+		"/var/www/admfv/js/model-view-boilerplate.js",
+		"/var/www/admfv/sass/main.scss",
+		"/var/www/admfv/index.php",
+		"/var/www/admfv/js/app.company.js",
+		"/var/www/admfv/js/app.testCollection.js",
+		"/var/www/admfv/data/test-model.json",
+		"/var/www/admfv/data/test-collection.json",
+		"/var/www/admfv/js/colection-view-boilerplate.js",
+		"/var/www/admfv/mvc-test.php",
+		"/var/www/admfv/js/main.js",
+		"/var/www/admfv/js/testModel.js",
+		"/home/gion/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+		"/home/gion/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/var/www/admfv/sass/screen.scss",
+		"/var/www/admfv/dialog.php",
+		"/var/www/admfv/contact.php",
+		"/var/www/admfv/about.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"\\n",
+			"\\n\\s",
+			"\\r\\n\\s",
+			"/var/www/hockey/app/scripts/services"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"maxTileSize",
+			"mapBounds",
+			"alert",
+			"transparentPng",
+			"tileSize",
+			"maptiler",
+			"setCenter",
+			"maxTileSize",
+			"coords",
+			"256",
+			"tile",
+			"maxTitleSize",
+			"256",
+			"hostn",
+			"<a href",
+			"z-index",
+			"hit",
+			"planePos.y",
+			"startFn",
+			"stratFn",
+			"planePos",
+			"left",
+			"__spe",
+			"scrollContainerTo",
+			"obst",
+			"road-light-blink 0.5s infinite ease-in-out;",
+			"'#--",
+			"--",
+			"\"--",
+			"id=\"",
+			"#",
+			"$('#",
+			"wrapper2",
+			"z-i",
+			"ob.length",
+			"$.eac",
+			"addC",
+			"wrapper",
+			"hit",
+			"2s",
+			"0.5s",
+			"transiti",
+			"obstacle",
+			"0px rgb",
+			"0px r",
+			"0px 0px 15px 5px rgba(255, 255, 190, .75);",
+			"\n	",
+			"0px 0px 15px 5px rgba(255, 255, 190, .75);\n",
+			"0px 0px 15px 5px rgba(255, 255, 190, .75);",
+			"1s",
+			"getCurrentObstacle",
+			"updatePl",
+			"alert",
+			"translate",
+			"wrapper",
+			"planePos.x",
+			"rotateY2",
+			"rotateY",
+			"translate",
+			"planePos.x",
+			"planeWrapper",
+			"stopped",
+			"overfl",
+			"console",
+			"border",
+			"applyTransform",
+			"height()",
+			"translate2Y",
+			"updatePlanePos",
+			"scrollContainerTo",
+			"mainContainer",
+			"scrollTop",
+			"updatePlanePos",
+			"translate2Y",
+			"gameLoop",
+			"10deg",
+			"translate(0, 100%)",
+			"%);\n",
+			"translate(0, 100%);",
+			"translate(0, 100%)",
+			"120px",
+			"resetStats",
+			"thr",
+			"maxFps",
+			"--",
+			"images",
+			"resize",
+			"app.dom.images.length",
+			".length",
+			"$",
+			"_.",
+			"$",
+			"_",
+			"config.host",
+			";",
+			".road",
+			"road",
+			"app.",
+			"app",
+			"main.js",
+			"scripts",
+			"tmp",
+			"!",
+			"underscore",
+			"log",
+			"200",
+			"stats",
+			"generateBonus",
+			"generateB",
+			"all 2s",
+			"pos",
+			"change",
+			"transform",
+			"ransition :",
+			"transform",
+			"-webkit-transform",
+			"important",
+			"1",
+			" * 0.1",
+			"* 0.1",
+			"css",
+			"animation",
+			"none",
+			"linear",
+			"hidden",
+			"180",
+			"rotation",
+			"e"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"maxTileSize",
+			"<a target=\"_blank\" href",
+			"'#p-",
+			"p-",
+			"\"p-",
+			"\"-",
+			"id=\"--",
+			"#--",
+			"$('#--",
+			"\\n;",
+			"planes.js",
+			"app.util.extend",
+			"onReady",
+			"host + \"",
+			"http://localhost/racemark/app/images/",
+			"\\n",
+			"    ",
+			"am modificat asta ! - audio/mpeg",
+			"!util.isIpad() ?",
+			"@include keyframe",
+			"51px",
+			"0px",
+			":0",
+			"$1",
+			"0",
+			"\\t",
+			"    ",
+			"ItemFactory",
+			"@include",
+			"createVideoE",
+			"mainTimeline",
+			"createVideoElement",
+			"    ",
+			"",
+			"include_once(\"templates/",
+			"<?php }",
+			"swipe-slider",
+			"app.clickEvent",
+			"sublime.desktop"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								779
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"project": "phonegap-file.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/media/windows/Users/gion/Desktop/after-earth.sublime-project"
+			],
+			[
+				"sco",
+				"~/Desktop/scoreace.sublime-project"
+			],
+			[
+				"sc",
+				"~/Desktop/scoreace.sublime-project"
+			],
+			[
+				"w",
+				"~/Desktop/www.sublime-project"
+			],
+			[
+				"ww",
+				"~/Desktop/www.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 353.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
