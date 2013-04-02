@@ -33,7 +33,13 @@
                 <p class="status complete blink hide">Device is Ready</p>
             </div>
         </div> -->
-        <button id="addFileButton">Create/Append to Test File</button><button id="readFileButton">Read Test File</button><button id="metadataFileButton">Get Test File Metadata</button><button id="deleteFileButton">Delete Test File</button><button id="dirListingButton">Show Directory Contents</button><div id="content"></div><style>button { width: 100%; padding: 10px; }</style>
+        <button id="addFileButton">Create/Append to Test File</button>
+        <button id="readFileButton">Read Test File</button>
+        <button id="metadataFileButton">Get Test File Metadata</button>
+        <button id="deleteFileButton">Delete Test File</button>
+        <button id="dirListingButton">Show Directory Contents</button>
+        <button id="clear">CLEAR</button>
+        <div id="content"></div><style>button { width: 100%; height : 100px; padding: 10px; }</style>
         <script type="text/javascript" src="phonegap.js"></script>
         <!--
         <script type="text/javascript" src="js/index.js"></script>
@@ -138,6 +144,9 @@
                 getById("#readFileButton").addEventListener("touchstart",doReadFile);           
                 getById("#metadataFileButton").addEventListener("touchstart",doMetadataFile);           
                 getById("#deleteFileButton").addEventListener("touchstart",doDeleteFile);           
+                getById("#clear").addEventListener("touchstart",function(){
+                    getById("#content").innerHTML = '';
+                });           
                 
                 logit( "Got the file system: "+fileSystem.name +"<br/>" +
                                                 "root entry name is "+fileSystem.root.name + "<p/>")    
