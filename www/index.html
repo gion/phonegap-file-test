@@ -26,17 +26,133 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
+       <!--  <div class="app">
             <h1>PhoneGap</h1>
             <div id="deviceready">
                 <p class="status pending blink">Connecting to Device</p>
                 <p class="status complete blink hide">Device is Ready</p>
             </div>
-        </div>
+        </div> -->
+        <button id="addFileButton">Create/Append to Test File</button><button id="readFileButton">Read Test File</button><button id="metadataFileButton">Get Test File Metadata</button><button id="deleteFileButton">Delete Test File</button><button id="dirListingButton">Show Directory Contents</button><div id="content"></div><style>button { width: 100%; padding: 10px; }</style>
         <script type="text/javascript" src="phonegap.js"></script>
+        <!--
         <script type="text/javascript" src="js/index.js"></script>
+        -->
         <script type="text/javascript">
-            app.initialize();
+            var fileSystem,
+                fileName = "/mnt/sdcard/work_temp/test.txt";
+
+            //generic getById
+            function getById(id) {
+                return document.querySelector(id);
+            }
+            //generic content logger
+            function logit(s) {
+                getById("#content").innerHTML += s;
+            }
+
+            //generic error handler
+            function onError(e) {
+                console.error(e);
+                getById("#content").innerHTML = "<h2>Error</h2>"+e.toString();
+            }
+
+            function doDeleteFile(e) {
+                fileSystem.root.getFile(fileName, {create:true}, function(f) {
+                    f.remove(function() {
+                        logit("File removed<p/>"); 
+                    });
+                }, onError);
+            }
+
+            function metadataFile(m) {
+                logit("File was last modified "+m.modificationTime+"<p/>"); 
+            }
+
+            function doMetadataFile(e) {
+                fileSystem.root.getFile(fileName, {create:true}, function(f) {
+                    f.getMetadata(metadataFile,onError);
+                }, onError);
+            }
+
+            function readFile(f) {
+                reader = new FileReader();
+                reader.onloadend = function(e) {
+                    console.log("go to end");
+                    logit("<pre>" + e.target.result + "</pre><p/>");
+                }
+                reader.readAsText(f);
+            }
+
+            function doReadFile(e) {
+                fileSystem.root.getFile(fileName, {create:true}, readFile, onError);
+            }
+
+            function appendFile(f) {
+
+                f.createWriter(function(writerOb) {
+                    writerOb.onwrite=function() {
+                        logit("Done writing to file.<p/>");
+                    }
+                    //go to the end of the file...
+                    writerOb.seek(writerOb.length);doAppendFile
+                    writerOb.write("Test at "+new Date().toString() + "\n");
+                })
+
+            }
+
+            function doAppendFile(e) {
+                fileSystem.root.getFile(fileName, {create:true}, appendFile, onError);
+            }
+
+            function gotFiles(entries) {
+                var s = "";
+                for(var i=0,len=entries.length; i<len; i++) {
+                    //entry objects include: isFile, isDirectory, name, fullPath
+                    s+= entries[i].fullPath;
+                    if (entries[i].isFile) {
+                        s += " [F]";
+                    }
+                    else {
+                        s += " [D]";
+                    }
+                    s += "<br/>";
+                    
+                }
+                s+="<p/>";
+                logit(s);
+            }
+
+            function doDirectoryListing(e) {
+                //get a directory reader from our FS
+                var dirReader = fileSystem.root.createReader();
+
+                dirReader.readEntries(gotFiles,onError);        
+            }
+
+            function onFSSuccess(fs) {
+                fileSystem = fs;
+
+                getById("#dirListingButton").addEventListener("touchstart",doDirectoryListing);         
+                getById("#addFileButton").addEventListener("touchstart",doAppendFile);          
+                getById("#readFileButton").addEventListener("touchstart",doReadFile);           
+                getById("#metadataFileButton").addEventListener("touchstart",doMetadataFile);           
+                getById("#deleteFileButton").addEventListener("touchstart",doDeleteFile);           
+                
+                logit( "Got the file system: "+fileSystem.name +"<br/>" +
+                                                "root entry name is "+fileSystem.root.name + "<p/>")    
+
+                doDirectoryListing();
+            }   
+               
+            function onDeviceReady() {
+
+                //request the persistent file system
+                window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onFSSuccess, onError);
+                
+            }
+
+             document.addEventListener("deviceready", onDeviceReady, true); 
         </script>
     </body>
 </html>
