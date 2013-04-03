@@ -46,8 +46,8 @@
         -->
         <script type="text/javascript">
             var fileSystem,
-            //    fileName = "/mnt/sdcard/work_temp/test.txt";
-                fileName = "gion.txt";
+                fileName = "/mnt/sdcard/work_temp/test.txt";
+            //    fileName = "/mnt/sdcard/gion.txt";
 
             //generic getById
             function getById(id) {
@@ -60,9 +60,41 @@
 
             //generic error handler
             function onError(e) {
-                console.error(e);
-                getById("#content").innerHTML = "<h2>Error</h2>"+e.toString();
+                var msg = getErrorMsg(e);
+                getById("#content").innerHTML = "<h2>Error</h2>" + msg;
+                console.warn('[Error]',msg);
             }
+
+            function fail(e) {
+              console.log('Error: ' + getErrorMsg(e));
+            } 
+
+            function getErrorMsg(e){
+                 var msg = '';
+
+                switch (e.code) {
+                    case FileError.QUOTA_EXCEEDED_ERR:
+                      msg = 'QUOTA_EXCEEDED_ERR';
+                      break;
+                    case FileError.NOT_FOUND_ERR:
+                      msg = 'NOT_FOUND_ERR';
+                      break;
+                    case FileError.SECURITY_ERR:
+                      msg = 'SECURITY_ERR';
+                      break;
+                    case FileError.INVALID_MODIFICATION_ERR:
+                      msg = 'INVALID_MODIFICATION_ERR';
+                      break;
+                    case FileError.INVALID_STATE_ERR:
+                      msg = 'INVALID_STATE_ERR';
+                      break;
+                    default:
+                      msg = 'Unknown Error';
+                      break;
+                };
+
+                return msg;
+            } 
 
             function doDeleteFile(e) {
                 fileSystem.root.getFile(fileName, {create:true}, function(f) {
@@ -83,6 +115,7 @@
             }
 
             function readFile(f) {
+                window.f = f;
                 reader = new FileReader();
                 reader.onloadend = function(e) {
                     console.log("go to end");
