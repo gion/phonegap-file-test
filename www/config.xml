@@ -98,4 +98,8 @@
     <!-- file IO permission -->
     <feature name="http://api.phonegap.com/1.0/file" />
 
+
+    <!-- plugins -->
+    <gap:plugin name="ChildBrowser" />
+    
 </widget>

@@ -46,7 +46,8 @@
         -->
         <script type="text/javascript">
             var fileSystem,
-                fileName = "/mnt/sdcard/work_temp/test.txt";
+            //    fileName = "/mnt/sdcard/work_temp/test.txt";
+                fileName = "gion.txt";
 
             //generic getById
             function getById(id) {
@@ -97,6 +98,7 @@
             function appendFile(f) {
 
                 f.createWriter(function(writerOb) {
+                    window.w =writerOb;
                     writerOb.onwrite=function() {
                         logit("Done writing to file.<p/>");
                     }
